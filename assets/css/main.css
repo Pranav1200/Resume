@@ -1,0 +1,62 @@
+body{
+font-family: 'Lato', sans-serif;
+}
+
+#container
+{   
+    background-color: white;
+    
+    padding: 2%;
+    width: 900px;
+    margin: 0 auto ;
+    border-radius: 25px;
+    border-left: 5px solid lightgreen;
+    overflow: auto;    
+}
+
+#topImage
+{
+    border: 2px solid ghostwhite;
+    border-radius:25px;
+    box-shadow: 2px 2px 8px ;
+}
+
+#left
+{
+    width:23%;
+    margin:5px;
+    float: left ;
+    padding:10px;
+    border-right:2px solid lightgray;
+
+}
+
+#right
+{  
+     margin:5px;
+    width :73%; 
+     padding:10px;
+    
+      /* to use block properties */
+
+}
+.projectcontainer{
+    background-color:;
+    height:300px;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.card{
+    width:32%;
+    background-image: linear-gradient(to bottom,lightgray,white);
+    height:300px; border-radius: 20px; 
+    display: inline-block;
+    box-shadow: 2px 2px 4px gray;
+    margin:1px;
+    transition-duration:500ms;
+}
+.card:hover{
+    box-shadow: 2px 2px 8px ;
+}
